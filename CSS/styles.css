@@ -2,47 +2,27 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-image: url(/html-me-something/images/trout.jpg);
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
-}
-.tabs{
-width: 860px;
-margin: 0 auto;
-}
-.tabs ul{
-    list-style: none;
-    margin-top: 2%;
-}
-.tabs ul li{
-    background: #262626;
-    width: 170px;
-    border: 1px solid #fff;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    float: left;
-    color: rgb(226, 236, 234);
-    font-size: 14px;
-    position: relative;
-    font-family: Cambria;
-}
-.tabs ul li:hover{
-    background: crimson;
-}
-.tabs ul ul{
-    display: none;
-}
-.tabs ul li:hover > ul{
-    display: block;
-}
-.tabs ul ul ul{
-    margin-left: 170px;
-    top: 0;
-    position: absolute;
-}  
-
+#title{
     
+}
+body{
+    /*background-image: url(/html-me-something/images/ME.jpg); /* The image used */
+    
+    /*height: 0px; /* You must set a specified height */
+    /*background-position: cover; /* Center the image */
+    /*background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.container{
+    max-width: 950px;
+    margin: 0 auto;
+}
+.rivers{
+    color:red;
+}
+#locations{
+
+}
+#description{
+    color: blue;
+}

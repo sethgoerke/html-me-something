@@ -3,10 +3,21 @@
     padding: 0;
 }
 #title{
+    font-size: 120px;
+    text-align: justify;
+    color: darkslategray;
+}
+#title2{
+    font-size: 100px;
+    text-align: center;
+    color: darkolivegreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
     
+
 }
 body{
-    /*background-image: url(/html-me-something/images/ME.jpg); /* The image used */
+    background-image: url(/html-me-something/images/mountain.jpg); /* The image used */
     
     /*height: 0px; /* You must set a specified height */
     /*background-position: cover; /* Center the image */
@@ -14,15 +25,25 @@ body{
     background-size: cover; /* Resize the background image to cover the entire container */
 }
 .container{
-    max-width: 950px;
+    /*max-width: 950px;*/
     margin: 0 auto;
+    text-align: justify;
+    padding-left: 50px;
 }
 .rivers{
-    color:red;
+    color:black;
+    width: 600px;
 }
-#locations{
+.picture{
+    text-align: center;
+    text-shadow: cornflowerblue;
+}
 
+.subheader{
+    font-size: 40px;
 }
-#description{
-    color: blue;
+.container ul li{
+    color:black;
+    font-size: 30px;
 }
+

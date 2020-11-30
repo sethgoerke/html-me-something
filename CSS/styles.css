@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-image: url(/html-me-something/images/mountain.jpg); 
+    background-size: cover; 
+                }
 #title{
     font-size: 120px;
     text-align: justify;
@@ -13,16 +17,6 @@
     color: darkolivegreen;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
-    
-
-}
-body{
-    background-image: url(/html-me-something/images/mountain.jpg); /* The image used */
-    
-    /*height: 0px; /* You must set a specified height */
-    /*background-position: cover; /* Center the image */
-    /*background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
 }
 .container{
     /*max-width: 950px;*/
@@ -33,17 +27,37 @@ body{
 .rivers{
     color:black;
     width: 600px;
+    font-size: 20px;
 }
+
 .picture{
     text-align: center;
-    text-shadow: cornflowerblue;
+    background-color: rgb(125, 147, 160);
+    border: 5px ridge rgb(233, 41, 105);
+    padding: 10;
 }
 
 .subheader{
     font-size: 40px;
+    font-style: oblique;
+    text-align: center;
+    padding: 20px;
+    border: 5px ridge black;
+    background-color: rgb(112, 133, 121);
 }
 .container ul li{
     color:black;
-    font-size: 30px;
+    font-size: 40px;
+    text-align: center;
+    list-style: none;
 }
 
+
+.lilRedPics{
+    text-align: center;
+}
+.rounded{
+    border-radius: 50%;
+    padding: 1px;
+    border: 5px ridge rgb(233, 41, 105);
+}
